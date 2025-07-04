@@ -20,6 +20,15 @@ export default function Navbar() {
             <Link href="/about">
               <li>About</li>
             </Link>
+            <Link href="/posts">
+              <li>Posts</li>
+            </Link>
+            <Link href="/countries">
+              <li>Countries</li>
+            </Link>
+            <Link href="/createPost">
+              <li>CreatePost</li>
+            </Link>
           </ul>
         </nav>
       </div>
