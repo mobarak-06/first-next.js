@@ -1,7 +1,12 @@
-import React from 'react'
+import RegisterFrom from "@/app/_components/RegisterFrom";
+import React from "react";
 
-export default function registerPage() {
+const RegisterPage = () => {
   return (
-    <div>registerPage</div>
-  )
-}
+    <div className=" flex flex-col justify-center items-center">
+      <RegisterFrom />
+    </div>
+  );
+};
+
+export default RegisterPage;
